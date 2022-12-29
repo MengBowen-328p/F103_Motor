@@ -57,6 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define EN1_Pin GPIO_PIN_1
+#define EN1_GPIO_Port GPIOB
+#define EN2_Pin GPIO_PIN_2
+#define EN2_GPIO_Port GPIOB
+#define OLED_RES_Pin GPIO_PIN_5
+#define OLED_RES_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
